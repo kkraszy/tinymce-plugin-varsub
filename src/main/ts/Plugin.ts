@@ -154,11 +154,7 @@ const setup = (editor: Editor, url: string): void => {
     varEndNode.append(varEndTextNode) */
 
     // <span data-varsub-var="variableValue">varsub</span>
-    const varNode = tinymce.html.Node.create("span", {
-      class: "varsub-var",
-      "data-varsub-var": varVal,
-      "data-varsub-example": String(example) || "",
-    })
+    const varNode = tinymce.html.Node.create("span")
 
     // <span data-varsub-var="variableValue">variableValue</span>
     const varTextNode = tinymce.html.Node.create("#text")
