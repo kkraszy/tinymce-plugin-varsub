@@ -30,7 +30,7 @@ tinymce.init({
   selector: 'textarea', // change this value according to your HTML
   external_plugins: {
       // v1.0.0
-      varsub: "https://cdn.jsdelivr.net/gh/ImpelsysInc/tinymce-plugin-varsub@v1.0.0/dist/varsub/plugin.min.js"
+      varsub: "https://cdn.jsdelivr.net/gh/kkraszy/tinymce-plugin-varsub@master/dist/varsub/plugin.min.js"
 
       // latest
       // varsub: "https://cdn.jsdelivr.net/gh/ImpelsysInc/tinymce-plugin-varsub@master/dist/varsub/plugin.min.js"
